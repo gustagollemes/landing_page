@@ -1,21 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    text-align: center;
+}
 header{
-    background-color: rgb(0, 255, 98);
-    
+    background-color: rgb(201, 170, 124);
+    text-align: center;
+    align-items: center;
 }
-
-#produtos{
-    background-color: crimson;
-    height: 300px
+h1{
+    font-size: 50px;
 }
-#parceiros{
-    background-color: mediumvioletred;
-    height: 300px
+nav{
+    background-color: black;   
+    color: rgb(126, 126, 126);
 }
-#historia{
-    background-color: rgb(94, 255, 0);
-    height: 300px
+.menu a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.3s;
 }
-
-.logotipo{
-    width: 150px;
+.menu a:hover{
+    text-decoration: underline;
+    font-size: 21px;
+}
+main{
+    background-color: bisque;
+}
+.menu{
+    position: relative;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+.logo{
+    width: 100px;
+}
+#oqé{
+    padding-top: 30px;
+}
+.texto1{
+    background-color: rgb(255, 215, 167);
+    margin: 0 50px 0 50px;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+.texto1:hover{
+    background-color: rgb(255, 188, 106);
+}
+.texto1 p{
+    text-align: justify;
+    font-size: 40px;
+    margin: 10px;
+}
+.texto1 img{
+    width: 250px;
 }
